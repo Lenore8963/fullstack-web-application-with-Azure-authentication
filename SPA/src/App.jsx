@@ -1,3 +1,5 @@
+// The main component of the React application. It wraps the application in MsalProvider, which provides the context for Azure AD authentication.
+
 import { Routes, Route } from "react-router-dom";
 import { MsalProvider } from "@azure/msal-react";
 

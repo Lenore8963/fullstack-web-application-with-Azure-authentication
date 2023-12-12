@@ -1,3 +1,5 @@
+// Defines the routes for the API, such as getting, posting, updating, and deleting Todos. It uses the Todo List controller to handle requests.
+
 const express = require('express');
 
 const todolist = require('../controllers/todolist');

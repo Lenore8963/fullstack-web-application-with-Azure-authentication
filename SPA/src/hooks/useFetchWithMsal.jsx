@@ -1,3 +1,5 @@
+// A custom React hook that integrates fetching data with MSAL (Microsoft Authentication Library), ensuring that requests to the back-end are authenticated.
+
 import {
     useState,
     useCallback,

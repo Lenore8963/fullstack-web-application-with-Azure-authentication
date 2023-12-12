@@ -1,3 +1,7 @@
+// This part of the authConfig.js file defines the endpoints and scopes for obtaining access tokens for protected web APIs.
+
+// Similar to the back-end, this file configures the Azure AD authentication for the front-end, including the client ID and authority. It also includes the protected resources for the front-end, which are the resources that require authentication to access. The protected resources are defined in the protectedResources object. The endpoint property is the resource that is protected, and the scopes property is the scopes that are required to access the resource. The scopes are defined in the Azure AD app registration.
+
 /*
  * Copyright (c) Microsoft Corporation. All rights reserved.
  * Licensed under the MIT License.

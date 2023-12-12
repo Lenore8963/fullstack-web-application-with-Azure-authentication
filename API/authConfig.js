@@ -1,3 +1,5 @@
+// This file configures the Azure authentication settings for the back-end. It includes the tenant ID, client ID, and other metadata required for Azure AD authentication. It also includes the protected routes for the API, which are the routes that require authentication to access. The protected routes are defined in the protectedRoutes object. The endpoint property is the route that is protected, and the delegatedPermissions and applicationPermissions properties are the permissions that are required to access the route. The delegatedPermissions property is for delegated permissions, and the applicationPermissions property is for application permissions. The permissions are defined in the Azure AD app registration.
+
 const passportConfig = {
     credentials: {
         tenantID: "a8eec281-aaa3-4dae-ac9b-9a398b9215e7",
